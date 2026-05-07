@@ -1,0 +1,59 @@
+{
+  "data": {
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "tagName": "div",
+        "responsiveStyles": {
+          "large": {
+            "backgroundColor": "#0B0F19",
+            "padding": "24px",
+            "textAlign": "center"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "component": {
+              "name": "Text",
+              "options": { "text": "🎬 ISL Video Output" }
+            },
+            "responsiveStyles": {
+              "large": {
+                "color": "#E5E7EB",
+                "fontSize": "22px",
+                "marginBottom": "20px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "div",
+            "responsiveStyles": {
+              "large": {
+                "backgroundColor": "#1F2937",
+                "height": "350px",
+                "borderRadius": "16px",
+                "display": "flex",
+                "alignItems": "center",
+                "justifyContent": "center"
+              }
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "component": {
+                  "name": "Text",
+                  "options": { "text": "ISL Avatar Video" }
+                },
+                "responsiveStyles": {
+                  "large": { "color": "#9CA3AF" }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

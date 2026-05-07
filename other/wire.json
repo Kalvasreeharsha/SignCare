@@ -1,0 +1,207 @@
+{
+  "data": {
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "tagName": "div",
+        "responsiveStyles": {
+          "large": {
+            "backgroundColor": "#0B0F19",
+            "padding": "24px"
+          }
+        },
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "h1",
+            "component": {
+              "name": "Text",
+              "options": {
+                "text": "🤟 SignCare"
+              }
+            },
+            "responsiveStyles": {
+              "large": {
+                "color": "#E5E7EB",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "marginBottom": "16px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "div",
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "gap": "24px",
+                "marginBottom": "24px"
+              }
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "tagName": "div",
+                "responsiveStyles": {
+                  "large": {
+                    "backgroundColor": "#111827",
+                    "padding": "16px",
+                    "borderRadius": "16px",
+                    "width": "300px"
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "🎤 Speech → ISL"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "color": "#E5E7EB",
+                        "fontSize": "18px"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "component": {
+                      "name": "Button",
+                      "options": {
+                        "text": "Select"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "backgroundColor": "#2563EB",
+                        "color": "#ffffff",
+                        "marginTop": "12px",
+                        "padding": "10px",
+                        "borderRadius": "12px"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "tagName": "div",
+                "responsiveStyles": {
+                  "large": {
+                    "backgroundColor": "#111827",
+                    "padding": "16px",
+                    "borderRadius": "16px",
+                    "width": "300px"
+                  }
+                },
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "✋ Gesture → Text"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "color": "#E5E7EB",
+                        "fontSize": "18px"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "component": {
+                      "name": "Button",
+                      "options": {
+                        "text": "Select"
+                      }
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "backgroundColor": "#2563EB",
+                        "color": "#ffffff",
+                        "marginTop": "12px",
+                        "padding": "10px",
+                        "borderRadius": "12px"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "component": {
+              "name": "Text",
+              "options": {
+                "text": "🎤 Speech to ISL"
+              }
+            },
+            "responsiveStyles": {
+              "large": {
+                "color": "#E5E7EB",
+                "fontSize": "20px",
+                "marginBottom": "12px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "component": {
+              "name": "Button",
+              "options": {
+                "text": "🎙 Start Listening"
+              }
+            },
+            "responsiveStyles": {
+              "large": {
+                "backgroundColor": "#2563EB",
+                "color": "#ffffff",
+                "padding": "12px",
+                "borderRadius": "12px",
+                "marginBottom": "16px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "div",
+            "responsiveStyles": {
+              "large": {
+                "backgroundColor": "#1F2937",
+                "height": "250px",
+                "borderRadius": "16px",
+                "display": "flex",
+                "alignItems": "center",
+                "justifyContent": "center"
+              }
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "component": {
+                  "name": "Text",
+                  "options": {
+                    "text": "ISL Avatar Video"
+                  }
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "color": "#9CA3AF"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
